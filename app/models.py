@@ -1,5 +1,5 @@
 from sqlalchemy import Table, Column, Integer, String
-from app.database import metadata
+from config.database import metadata
 
 passengers = Table(
     "passengers",

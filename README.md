@@ -3,7 +3,10 @@ Microservice for see passangers information and update it
 
 # Dependencies
 install:
- - pip install fastapi uvicorn sqlalchemy asyncpg databases psycopg2-binary python-dotenv
+
+```
+pip install fastapi uvicorn sqlalchemy asyncpg databases psycopg2-binary python-dotenv pytest httpx pytest-asyncio aiosqlite
+```
 
 # Database
 
